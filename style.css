@@ -1,0 +1,64 @@
+body {
+    background-color: aliceblue;
+    margin: 5rem 3rem 5rem 3rem;
+}
+
+.profile-tag {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.profile-tag img {
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+}
+
+.profile-tag h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+}
+
+.link-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.link-box button{
+    margin-bottom: 0.5rem;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    background-color: transparent;
+    border: solid black 0.1rem;
+    border-radius: 1.5rem;
+}
+
+.link-box button a:link, a:visited {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: black;
+
+}
+
+.link-box button a:hover {
+    font-size: 1.4rem;
+    transition: 0.3s;
+}
+
+footer {
+    margin-top: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
